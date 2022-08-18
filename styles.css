@@ -19,6 +19,7 @@ ul {
     padding: 0;
     margin: 0;
     color: #F9FAF8;
+    display: flex;
 }
 
 body {
@@ -31,11 +32,14 @@ body {
 }
 
 .upper-text {
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .text {
@@ -44,4 +48,26 @@ body {
 
 .upper-blue-box-text {
     color: #F9FAF8; 
+}
+
+.second-hero {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6
+}
+
+.upper.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper.container {
+    display: flex;
 }
