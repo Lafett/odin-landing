@@ -1,10 +1,38 @@
-.froggie {
-    color: white;
-    background-color: gray;
-    flex: 1;
+body {
+    margin: 0;
+    padding: 0 10px;
+    background-color: black;
+    font-family: Roboto, sans-serif;
+}
+
+.upper, .footer {
+    background-color: #1F2937;
+}
+
+.upper.header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #F9FAF8;
+    display: flex;
+    gap: 30px;
+}
+
+.upper.container {
+    display: flex;
+    padding: 100px 200px;
 }
 
 .left-part {
@@ -12,6 +40,18 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.upper-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .upper-button {
@@ -26,8 +66,47 @@
     margin-top: 15px;
 }
 
-.upper, .footer {
-    background-color: #1F2937;
+.froggie {
+    color: white;
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.second-hero {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border: 3px solid #3882F6;
+    margin-bottom: 10px;
+    
 }
 
 .third-container {
@@ -38,39 +117,6 @@
     background-color: #3882F6;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #F9FAF8;
-    display: flex;
-    gap: 30px;
-}
-
-body {
-    margin: 0;
-    padding: 0 10px;
-    background-color: black;
-    font-family: Roboto, sans-serif;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.upper-text {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-top: 5px;
-}
-
-.hero {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
-
 .text {
     color: #F9FAF8;
 }
@@ -79,34 +125,13 @@ body {
     color: #F9FAF8; 
 }
 
-.second-hero {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
 
-.box {
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882F6
-}
 
-.upper.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 200px;
-}
 
-.upper.container {
-    display: flex;
-    padding: 100px 200px;
-}
 
-.boxes {
-    display: flex;
-}
 
-.second-container {
-    background-color: white;
-}
+
+
+
+
+
