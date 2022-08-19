@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0 10px;
     background-color: black;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .upper, .footer {
@@ -18,7 +18,10 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 800;
     color: #F9FAF8;
+    flex: none;
+    margin-right: 30px;
 }
 
 ul {
@@ -28,24 +31,25 @@ ul {
     color: #F9FAF8;
     display: flex;
     gap: 30px;
+    flex: none;
 }
 
 .upper.container {
     display: flex;
-    padding: 100px 200px;
+    padding: 100px 200px 150px 200px;
 }
 
 .left-part {
-    flex: 1;
+    flex: 1 0 300px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .hero {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .upper-text {
@@ -69,7 +73,7 @@ ul {
 .froggie {
     color: white;
     background-color: gray;
-    flex: 1;
+    flex: 1 0 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +87,7 @@ ul {
 
 .second-hero {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
     padding: 40px;
 }
@@ -105,12 +109,29 @@ ul {
     width: 150px;
     border-radius: 12px;
     border: 3px solid #3882F6;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
+}
+
+.box-text {
+    color: rgba(0, 0, 0, 0.637);
 }
 
 .third-container {
     background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    font-size: 23px;
+    font-weight: 800;
+    color: #151d27da;
+    text-align: end;
 }
 
 .blue-box {
