@@ -28,7 +28,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    color: #F9FAF8;
+    color: #E5E7EB;
     display: flex;
     gap: 30px;
     flex: none;
@@ -134,18 +134,55 @@ ul {
     text-align: end;
 }
 
-.blue-box {
-    background-color: #3882F6;
+.last-container {
+    background-color: white;
+    padding: 30px;
+    padding: 100px 200px;
+    display: flex;
 }
 
-.text {
-    color: #F9FAF8;
+.blue-box {
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0;
 }
 
 .upper-blue-box-text {
     color: #F9FAF8; 
+    font-size: 23px;
+    font-weight: 800;
+    flex: none;
 }
 
+.text {
+    color: #E5E7EB;
+    font-size: large;
+    width: max-content;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 40px;
+    height: 40px;
+    margin-left: 30px;
+    flex: none;
+}
+
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    color: #E5E7EB;
+}
 
 
 
