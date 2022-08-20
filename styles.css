@@ -6,10 +6,6 @@ body {
     display: flex;
 }
 
-.page {
-
-}
-
 .black {
     width: 300px;
     flex: 1 1 auto
@@ -83,10 +79,17 @@ ul {
 .froggie {
     color: white;
     background-color: gray;
-    flex: 1 0 300px;
+    flex: 1 0 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+img {
+   width: 100%;
+   height: 100%;
 }
 
 .second-container {
@@ -124,6 +127,10 @@ ul {
     border-radius: 12px;
     border: 3px solid #3882F6;
     margin-bottom: 8px;   
+}
+
+.frogs {
+    border-radius: 12px;
 }
 
 .box-text {
