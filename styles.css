@@ -1,8 +1,18 @@
 body {
     margin: 0;
-    padding: 0 10px;
-    background-color: black;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.856);
     font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.page {
+
+}
+
+.black {
+    width: 300px;
+    flex: 1 1 auto
 }
 
 .upper, .footer {
@@ -81,21 +91,25 @@ ul {
 
 .second-container {
     background-color: white;
-    text-align: center;
+    align-items: center;
     padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
 }
 
 .second-hero {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    padding: 40px;
+    padding: 50px;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .box-container {
@@ -109,7 +123,7 @@ ul {
     width: 150px;
     border-radius: 12px;
     border: 3px solid #3882F6;
-    margin-bottom: 10px;   
+    margin-bottom: 8px;   
 }
 
 .box-text {
@@ -119,12 +133,16 @@ ul {
 .third-container {
     background-color: #E5E7EB;
     padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     font-size: 32px;
     font-weight: 300;
     color: #1F2937;
+    width: 700px;
+    align-self: center;
 }
 
 .thor {
@@ -132,6 +150,7 @@ ul {
     font-weight: 800;
     color: #151d27da;
     text-align: end;
+    padding-right: 40px;
 }
 
 .last-container {
@@ -172,8 +191,7 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 700;
-    padding: 0 40px;
-    height: 40px;
+    padding: 5px 40px;  
     margin-left: 30px;
     flex: none;
 }
